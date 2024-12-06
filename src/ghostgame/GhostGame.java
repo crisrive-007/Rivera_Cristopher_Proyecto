@@ -36,50 +36,7 @@ public final class GhostGame extends JFrame {
     public static menu_principal menu = new menu_principal();
 
     public GhostGame() {
-        jugadores();
         iniciar_tablero();
-    }
-    
-    public void jugadores() {
-        jugadores[0] = new Player("Juanito_01", "12345");
-        jugadores[0].setUsername("Juanito_01");
-        jugadores[0].setPuntos(34);
-        
-        jugadores[1] = new Player("MariaJ_22", "abcde");
-        jugadores[1].setUsername("MariaJ_22");
-        jugadores[1].setPuntos(48);
-        
-        jugadores[2] = new Player("Carlos_Gamer", "qwerty");
-        jugadores[2].setUsername("Carlos_Gamer");
-        jugadores[2].setPuntos(27);
-        
-        jugadores[3] = new Player("Sofia_23", "password");
-        jugadores[3].setUsername("Sofia_23");
-        jugadores[3].setPuntos(41);
-        
-        jugadores[4] = new Player("Felipe123", "98765");
-        jugadores[4].setUsername("Felipe123");
-        jugadores[4].setPuntos(36);
-        
-        jugadores[5] = new Player("AnaM_11", "11111");
-        jugadores[5].setUsername("AnaM_11");
-        jugadores[5].setPuntos(44);
-        
-        jugadores[6] = new Player("Luis_99", "zxcvbn");
-        jugadores[6].setUsername("Luis_99");
-        jugadores[6].setPuntos(50);
-        
-        jugadores[7] = new Player("Pedro_87", "abc123");
-        jugadores[7].setUsername("Pedro_87");
-        jugadores[7].setPuntos(32);
-        
-        jugadores[8] = new Player("Laura_G", "qwertz");
-        jugadores[8].setUsername("Laura_G");
-        jugadores[8].setPuntos(28);
-        
-        jugadores[9] = new Player("Javier_44", "asdfg");
-        jugadores[9].setUsername("Javier_44");
-        jugadores[9].setPuntos(25);
     }
     
     public static void ordenar_jugadores() {
